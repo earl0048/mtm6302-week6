@@ -42,7 +42,7 @@ const $empInfo = `<dl>
 
 $empSection.insertAdjacentHTML("beforeend", $empInfo);
 
-// Accessing an arrat in an object
+// Accessing an array in an object
 const $empSkills = $employee.skills;
 $empSection.insertAdjacentHTML(
   "beforeend",
